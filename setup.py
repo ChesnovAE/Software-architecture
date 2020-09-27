@@ -24,7 +24,6 @@ setup(
         "pytest-cov",
     ],
     tests_require=[
-        "unittest",
         "pytest",
         "pylint",
         "pycodestyle",
