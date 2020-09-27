@@ -2,8 +2,8 @@ import random
 
 
 def word_for_guess():
-    with open('gallow_play/words_.txt', 'r', encoding='utf-8') as f:
-        lines = f.readlines()
+    with open('gallow_play/words_.txt', 'r', encoding='utf-8') as file_:
+        lines = file_.readlines()
     return lines[random.randint(0, len(lines) - 1)]
 
 
@@ -27,7 +27,7 @@ def gallow(word):
             print('Missed, mistake {} out of {}'.format(mistakes, len(word)))
             misses.append(letter)
         else:
-            for i in range(len(word)):
+            for i, _ in enumerate(word):
                 if word[i] == letter:
                     guessed[i] = letter
             print('Hit!')
