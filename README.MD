@@ -1,5 +1,8 @@
 # The project "gallow"
 
+[![Build Status][travis-badge]][travis-url]
+[![Coverage][coverage-image]][coverage-url]
+
 It's a pleasnt play for you and your friends.
 
 ## Downloading and starting
