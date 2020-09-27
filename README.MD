@@ -47,5 +47,5 @@ At the end you will get an inscription with you result.
 
 [travis-url]: https://travis-ci.com/github/ChesnovAE/Software-architecture
 [travis-badge]: https://travis-ci.com/github/ChesnovAE/Software-architecture?branch=master
-[coverage-image]: https://codecov.io/gh/PPPoSD-Tinkoff/greetings/branch/master/graph/badge.svg
-[coverage-url]: https://codecov.io/gh/PPPoSD-Tinkoff/greetings
+[coverage-image]: https://codecov.io/gh/ChesnovAE/Software-architecture/branch/master/graph/badge.svg
+[coverage-url]: https://codecov.io/gh/ChesnovAE/Software-architecture
