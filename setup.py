@@ -1,5 +1,4 @@
-
-#!/usr/bin/env python3
+#! /usr/bin/env python3
 
 """Setup script."""
 
@@ -25,6 +24,7 @@ setup(
         "pytest-cov",
     ],
     tests_require=[
+        "unittest",
         "pytest",
         "pylint",
         "pycodestyle",
